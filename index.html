@@ -3,24 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="https://cdn.tailwindcss.com"></script>
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="Assignment_03_Category_0002/Favicon/9862079.png" type="image/x-icon">
+   
+
 
 <style>
     .sora-uniquifier{
         font-family: "Sora", serif;
     }
+    @layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+}
 
+.color{
+   color:#179800;
+}
 </style>
     <title>Living-lav</title>
 </head>
 <body class="sora-uniquifier">
     
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] "> 
+        <nav>
+           <div class="flex justify-between lg:ml-32 lg:mr-32 lg:mx-auto lg:mt-5 lg:items-center">
+               <div>
+                <img class="hidden lg:block" src="Assignment_03_Category_0002/c2-assets/logo-header.png" alt="">
+               </div>
+               <div>
+                   <ul class="flex space-x-5">
+                    <li class="hidden lg:block">Product</li>
+                    <li class="hidden lg:block">Services</li>
+                    <li class="hidden lg:block">Contact us</li>
+                   </ul>
+               </div>
+               <div class="flex space-x-5 items-center">
+                   <img class="hidden lg:block w-[28px] h-[30px]" src="Icons/search-interface-symbol.png" alt="">
+                   <img class="hidden lg:block w-[28px] h-[30px]" src="Icons/shopping-cart.png" alt="">
+                   <a href=""><button class="hidden lg:block border-2 rounded-md border-green-500 px-5 py-2">login</button></a>
+                   <a href=""><button class="hidden lg:block text-white px-5 py-2 bg-[#179800] rounded-md">Register</button></a>
+
+                  
+               </div>
+           </div>
+           <section class="flex justify-between mt-3 ml-3 mr-3 items-center">
+            <div>
+               <img class="lg:hidden sm:block" src="Assignment_03_Category_0002/c2-assets/logo-header.png" alt="">
+            </div>
+            <div>
+                <img  class="lg:hidden sm:block w-[30px]" src="Icons/layout.png" alt="">
+            </div>
+         </section>
+         <hr class="lg:hidden sm:block mt-2 border-1  border-[#179800]">
+        </nav>
+        <div>
+           <div class="text-center lg:mt-20 mt-7">
+            <h1 class="text-4xl lg:text-4xl font-bold mb-3">Freshness <span class="text-[#179800]"> You Can
+              <br>Count</span> On, Prices You’ll Love!</h1>
+              <p class="text-[16px]">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve <br>got you covered every day!</p>
+              <img class="mx-auto lg:w-[850px] lg:h-[700px]" src="Assignment_03_Category_0002/c2-assets/hero-vegetables.png" alt="">
+           </div>
+
+        </div>
+    </header>
+    <main>
+        <!-- services section -->
+          <section>
+              <div class="mt-32 lg:ml-[140px] lg:mr[140px] mx auto ml-4">
+                 <div>
+                  <h1 class=" text-4xl font-bold color mb-10">Services</h1>
+                 </div>
+
+             <!-- cards -->
+                 
+              <div class="grid grid-cols-1 gap-5 lg:grid-cols-3 md:grid-cols-2">
+                <!-- card one -->
+                 <div class="card bg-[#EFEBE3] w-96">
+                  <div class="avatar">
+                    <div class="w-24 mt-6 rounded-full mx-auto lg:mt-8 lg:w-[150px] lg:h-[150px]">
+                      <img class=" lg:p-5 bg-white " src="Assignment_03_Category_0002/c2-assets/service.png" />
+                    </div>
+                  </div>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">24/7 Services </h2>
+                    <p>We are active 24/7, ensuring reliability and seamless user experience
+                    </p>
+                   </div>
+                </div>
+                 <div class="card bg-[#EFEBE3] w-96">
+                  <div class="avatar">
+                    <div class="w-24 mt-6 rounded-full mx-auto lg:mt-8 lg:w-[150px] lg:h-[150px]">
+                      <img class=" lg:p-5 bg-white " src="Assignment_03_Category_0002/c2-assets/delivery.png" />
+                    </div>
+                  </div>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Fast Delivery </h2>
+                    <p>We provide fast delivery 24/7, ensuring speed, reliability, and satisfaction.
+                    </p>
+                   </div>
+                </div>
+                 <div class="card bg-[#EFEBE3] w-96">
+                  <div class="avatar">
+                    <div class="w-24 mt-6 rounded-full mx-auto lg:mt-8 lg:w-[150px] lg:h-[150px]">
+                      <img class=" lg:p-5 bg-white " src="Assignment_03_Category_0002/c2-assets/healthy.png" />
+                    </div>
+                  </div>
+                  <div class="card-body items-center text-center">
+                    <h2 class="card-title">Healthy Products  </h2>
+                    <p>"We offer healthy products with fast delivery, ensuring quality and freshness."
+                    </p>
+                   </div>
+                </div>
+              </div>
+          </div>
+          </section>
+    </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
